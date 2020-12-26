@@ -1,10 +1,9 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import Checkbox from './components/Checkbox'
+import Form from './components/Form'
+import Input from './components/Input'
+import InputCalendar from './components/InputCalendar'
+import InputFile from './components/InputFile'
+import Radio from './components/Radio'
+import Dropdown from './components/Dropdown'
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Checkbox, Form, Input, InputCalendar, InputFile, Radio, Dropdown }
